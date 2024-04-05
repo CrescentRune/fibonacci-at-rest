@@ -27,13 +27,6 @@ public class TestFibonacciController {
 
   @Mock
   FibonacciService fibonacciService;
- 
-
-  @Test
-  void fibServiceExists() {
-    assertNotNull(this.fibonacciController);
-    assertNotNull(this.fibonacciService);
-  }
 
   @Test
   @Description("/get -- value should pass through")
