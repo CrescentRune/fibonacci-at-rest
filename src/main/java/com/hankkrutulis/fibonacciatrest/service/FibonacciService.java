@@ -39,6 +39,10 @@ public class FibonacciService {
         return this.calculateItem(this.currentIndex);
     }
 
+    public List<Long> getSequence() {
+        return this.fibonacciSequence;
+    }
+
 
     private long calculateItem(int index) throws UpperLimitException {
         if (index >= this.fibonacciSequence.size()) {
