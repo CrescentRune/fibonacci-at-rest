@@ -26,7 +26,7 @@ public class FibonacciService {
     }
 
     public Integer getPreviousItem() {
-        if (currentIndex >= 0) {
+        if (currentIndex > 0) {
             this.currentIndex--;
         }
         return this.calculateItem(this.currentIndex);
